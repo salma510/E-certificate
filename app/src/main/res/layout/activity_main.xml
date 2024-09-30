@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:id="@+id/t"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="E-Certificate"
+        android:textColor="#D3000000"
+        android:textSize="25dp"
+        android:background="#9C27B0"
+
+        >
+
+    </TextView>
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.le pattern MVC signifie:"
+        android:textColor="#D3000000"
+        android:textSize="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp">
+
+    </TextView>
+
+    <CheckBox
+        android:id="@+id/check1"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="Multiple version combined"
+        android:textColor="#D3000000"
+        android:textSize="20dp">
+
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/check2"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="Model view controler"
+        android:textColor="#D3000000"
+        android:textSize="20dp">
+
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/chech3"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="Main value compiled"
+        android:textColor="#D3000000"
+        android:textSize="20dp">
+
+    </CheckBox>
+
+    <CheckBox
+        android:id="@+id/chech4"
+        android:layout_width="310dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="Mandatory validate controls"
+        android:textColor="#D3000000"
+        android:textSize="20dp">
+
+    </CheckBox>
+    <TextView
+        android:id="@+id/t2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2.La syntaxe $[x]est permise dans une JSP:"
+        android:textColor="#D3000000"
+        android:textSize="15dp"
+        android:layout_marginLeft="20dp">
+        
+    </TextView>
+
+    <RadioButton
+        android:id="@+id/oui"
+        android:layout_width="71dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="Oui"
+        android:textColor="#D3000000"
+        android:textSize="20dp">
+
+    </RadioButton>
+
+    <RadioButton
+        android:id="@+id/non"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:text="Non"
+        android:textColor="#D3000000"
+        android:textSize="20dp">
+
+    </RadioButton>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="40dp">
+
+        <Button
+            android:id="@+id/quitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:background="#9B8787"
+            android:text="Quitter">
+
+        </Button>
+
+        <Button
+            android:id="@+id/suivant"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="40dp"
+            android:background="#9B8787"
+            android:text="Suivant">
+
+        </Button>
+
+    </LinearLayout>
+
+
+</LinearLayout>
+    
+
+</RelativeLayout>
